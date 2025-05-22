@@ -78,6 +78,7 @@ uk li a:hover {
     width: 330px;
     float: left;
     margin-left: 270px;
+    margin-bottom: 290;
 
 }
 
@@ -87,12 +88,12 @@ uk li a:hover {
     height: 40px;
     background: transparent;
     border: 1 px solid orangered;
-    margin-top: 13 px;
+    margin-top: 5px;
     color: aliceblue;
     border-right: none;
     font-size: 16px;
     float: left;
-    padding: 10px;
+    padding: 5px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 
@@ -129,20 +130,22 @@ uk li a:hover {
 
 }
 
-.conten .par {
-    padding-left: 20 px;
-    padding-bottom: 25 px;
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
     font-family: arial;
     left: 1.2px;
-    line-height: 35px;
+    letter-spacing: 1.2p;
+
+    line-height: 50px;
 
 }
 
 .content h1 {
     font-family: 'Times New Roman';
-    font-size: 15 px;
+    font-size: 50 px;
     padding-left: 20 px;
-    margin-top: 10%;
+    margin-top: 9%;
     letter-spacing: 2px;
 }
 
@@ -152,7 +155,7 @@ uk li a:hover {
     background: orangered;
     border: none;
     margin-bottom: 10 px;
-    margin-left: 20 px;
+    margin-left: 40 px;
     font-size: 18 px;
     border-radius: 10px;
     cursor: pointer;
@@ -162,7 +165,7 @@ uk li a:hover {
 
 .content .cn a {
     text-decoration: none;
-    color: red;
+    color: black;
     transition: .3s ease;
 
 }
@@ -174,31 +177,34 @@ uk li a:hover {
 
 .content span {
     color: orangered;
-    font-size: 60px;
+    font-size: 65px
 }
 
 .form {
+
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, rgba (0, 0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0, 0.8, ));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8));
     position: absolute;
-    top: -20px;
-    left: 870 px;
-    border-radius: 10px;
-    padding: 25 px;
+    top: 60px;
+    left: 1500px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 20px;
 }
 
 .form h2 {
-    width: 220 px;
+    width: 220px;
     font-family: sans-serif;
-
-    text-align: center;
+    text-align: left;
     color: orangered;
     font-size: 22px;
     background-color: white;
     border-radius: 10px;
     margin: 2px;
-    padding: 8px;
+    padding: 5px;
+    text-align: center;
 
 }
 
@@ -211,22 +217,24 @@ uk li a:hover {
     border-right: none;
     border-left: none;
     color: white;
-    font-size: 50 px;
+    font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
     font-family: sans-serif;
+}
+
+.form input :focous {
+    outline: none;
 
 }
 
-.form input:focus {
-    outline: none
-}
-
-::placeholder {
+:placeholder {
     color: white;
-    font-family: arial;
-
 }
+
+
+
+
 
 .btnn {
     width: 240 px;
@@ -234,8 +242,9 @@ uk li a:hover {
     background: orangered;
     border: none;
     margin-top: 30px;
-    border-radius: 10px;
     font-size: 18px;
+    border-radius: 10px;
+
     border-radius: 10px;
     cursor: pointer;
     color: white;
@@ -267,7 +276,12 @@ uk li a:hover {
 .form.link a {
     text-decoration: none;
     color: orangered;
+    font-size: 10px;
 
+}
+
+#dont-have-account {
+    font-size: 14px;
 }
 
 .liw {
@@ -284,7 +298,7 @@ uk li a:hover {
 }
 
 .icons ion-icon {
-    colour: white;
+    color: WHITE;
     font-size: 30px;
     padding-left: 14px;
     padding-top: 5px;
@@ -294,6 +308,6 @@ uk li a:hover {
 }
 
 .icons ion-icon:hover {
-    color: red;
+    color: orangered;
 
 }
